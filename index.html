@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azure Bay Resort</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="logo">Azure Bay Resort</div>
+
+    <nav id="nav-menu">
+      <a href="#about">About</a>
+      <a href="#rooms">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu">
+      ☰
+    </button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="badge">Luxury Boutique Resort</p>
+      <h1>Luxury Stay by the Sea</h1>
+      <p>
+        Experience elegant rooms, ocean views, and unforgettable comfort at Azure Bay Resort.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn primary">Book Now</a>
+        <a href="#rooms" class="btn secondary">Explore Rooms</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about fade-in">
+    <div class="about-text">
+      <p class="section-label">About Us</p>
+      <h2>Your Private Escape on the Coast</h2>
+      <p>
+        Azure Bay Resort is designed for travelers who want comfort, style, and peaceful island living.
+        From premium rooms to attentive service, every detail is crafted to make your stay memorable.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>Why Guests Love Us</h3>
+      <ul>
+        <li>Elegant beachfront atmosphere</li>
+        <li>Modern rooms with scenic views</li>
+        <li>Exceptional service and hospitality</li>
+        <li>Perfect for couples, families, and holidays</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="rooms" class="section rooms fade-in">
+    <h2>Our Rooms</h2>
+
+    <div class="room-grid">
+      <div class="room-card">
+        <div class="room-image"></div>
+        <div class="room-content">
+          <h3>Deluxe Room</h3>
+          <p class="price">$120 / night</p>
+          <p>
+            A stylish room with modern comfort, warm interiors, and a relaxing atmosphere.
+          </p>
+          <div class="room-meta">
+            <span>2 Guests</span>
+            <span>King Bed</span>
+            <span>Sea Breeze</span>
+          </div>
+          <a href="#contact" class="btn secondary dark-btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="room-card featured-room">
+        <div class="room-image suite"></div>
+        <div class="room-content">
+          <h3>Ocean View Suite</h3>
+          <p class="price">$220 / night</p>
+          <p>
+            Enjoy spacious elegance with breathtaking sea views and a premium guest experience.
+          </p>
+          <div class="room-meta">
+            <span>3 Guests</span>
+            <span>Ocean Balcony</span>
+            <span>Breakfast</span>
+          </div>
+          <a href="#contact" class="btn secondary dark-btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="room-card">
+        <div class="room-image villa"></div>
+        <div class="room-content">
+          <h3>Private Villa</h3>
+          <p class="price">$380 / night</p>
+          <p>
+            A luxurious private stay with extra space, exclusivity, and elevated comfort.
+          </p>
+          <div class="room-meta">
+            <span>4 Guests</span>
+            <span>Private Lounge</span>
+            <span>Premium View</span>
+          </div>
+          <a href="#contact" class="btn secondary dark-btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="amenities" class="section amenities fade-in">
+    <h2>Resort Amenities</h2>
+
+    <div class="amenities-grid">
+      <div class="amenity-card">Swimming Pool</div>
+      <div class="amenity-card">Spa & Wellness</div>
+      <div class="amenity-card">Ocean View Restaurant</div>
+      <div class="amenity-card">Free Wi-Fi</div>
+      <div class="amenity-card">Airport Transfer</div>
+      <div class="amenity-card">24/7 Guest Service</div>
+    </div>
+  </section>
+
+  <section class="section gallery fade-in">
+    <h2>Resort Gallery</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-item"></div>
+      <div class="gallery-item second"></div>
+      <div class="gallery-item third"></div>
+      <div class="gallery-item fourth"></div>
+    </div>
+  </section>
+
+  <section class="section testimonials fade-in">
+    <h2>Guest Experiences</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>
+          “Beautiful rooms, friendly staff, and one of the most relaxing stays we’ve ever had.”
+        </p>
+        <h4>Emma L.</h4>
+        <span>United Kingdom</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          “The ocean view was stunning and the service made our holiday extra special.”
+        </p>
+        <h4>Daniel K.</h4>
+        <span>Singapore</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          “Perfect for couples. Elegant atmosphere, quiet surroundings, and excellent hospitality.”
+        </p>
+        <h4>Sophia M.</h4>
+        <span>Australia</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact fade-in">
+    <div class="contact-info">
+      <p class="section-label">Contact & Booking</p>
+      <h2>Reserve Your Stay</h2>
+      <p>
+        Contact us for bookings, room availability, and personalized resort experiences.
+      </p>
+
+      <div class="contact-details">
+        <p><strong>Phone:</strong> +66 00 000 0000</p>
+        <p><strong>Email:</strong> stay@azurebayresort.com</p>
+        <p><strong>Location:</strong> Beachfront Road, Koh Island, Thailand</p>
+      </div>
+    </div>
+
+    <form class="booking-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <div class="date-row">
+        <input type="date" required />
+        <input type="date" required />
+      </div>
+      <textarea placeholder="Special Request"></textarea>
+      <button type="submit" class="btn primary">Send Booking Request</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Azure Bay Resort</h3>
+        <p>
+          Luxury, comfort, and oceanfront relaxation in one unforgettable destination.
+        </p>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Amenities</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>stay@azurebayresort.com</p>
+        <p>+66 00 000 0000</p>
+        <p>Koh Island, Thailand</p>
+      </div>
+    </div>
+
+    <p class="copyright">© 2026 Azure Bay Resort. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
